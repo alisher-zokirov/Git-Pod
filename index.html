@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>BOOTSTRAP#FIGMA</title>
+</head>
+<body>
+    <div class="container" style="margin-top: 10px;">
+        <navbar>
+            <div class="navbar">
+                <div class="navbar-text" style="display: flex; gap: 200px;">
+                    <div>
+                        <img src="img/navbar-img.png" alt="">
+                    </div>
+
+                    <ul class="navbar-links" style="display: flex; list-style: none; gap: 48px; padding-top: 5px;">
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li>Blog</li>
+                        <li>Docs</li>
+                        <li>Changelog</li>
+                        <li>We're hiring</li>
+                    </ul>
+
+                    <button onclick="login()" class="bt-1">Login</button>
+                </div>
+            </div>
+        </navbar>
+
+        <div class="header">
+            <header>
+                <div class="row" style="margin-top: 80px;">
+                    <div class="col-6">
+                        <div class="header-text" style="padding: 20px; margin-top: 80px;">
+                            <h1 class="header-h1">Always <br> Ready to Code.</h1>
+        
+                            <p style="margin-top: 38px;">Spin up fresh, automated dev environments <br> for each task, in the cloud, in seconds.</p>
+        
+                            <div style="display: flex; margin-top: 48px; gap: 20px;">
+                                <button onclick="trynow()" class="try-now">Try Now</button>
+        
+                                <p>Open a workspace. <br> Start from any Git context.</p>
+                            </div>
+                            
+                            <div style="display: flex; gap: 30px;">
+                                <img onclick="foxes()" src="img/foxes.png" alt="">
+                                <img onclick="frame()" src="img/Frame.png" alt="">
+                                <img onclick="kub()" src="img/frame-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <img src="img/header-bg-img.png" alt="">
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="title">
+            <div class="title-text" style="text-align: center; margin-top: 176px;">
+                <h1 class="title-h1">Select project,</h1><br>
+                <del class="del">check dependencies, checkout branch, view</del><br>
+                <del class="del">readme.txt, install tools, run build, run test,</del><br>
+                <h1 class="title-h1">start coding.</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="coding">
+            <div class="row" style="display: flex; justify-content: center; align-items: center; margin-top: 340px;">
+                <div class="col-6" style="padding: 0px 0px 0px 60px;">
+                    <h3>Think CI/CD for dev environments</h3>
+
+                    <p>
+                        We invented prebuilds so application code, configuration and <br> infrastructure can all be stored as machine-executable code <br> in your git repositories and applied to dev environments <br> automatically and continuously.
+                    </p>
+
+                    <div style="margin-top: 150px;">
+                        <button class="bt-2">More on prebuilds</button>
+                        <button class="bt-3">Documentation</button>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <img src="img/cod-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="coding-center">
+            <div class="coding-text" style="text-align: center;">
+                <h1>Remote-first. Secure by design.</h1>
+            </div>
+
+            <div class="coding-img">
+                <img src="img/coding-center.png" alt="">
+
+                <p style="text-align: center; font-size: 22px; margin-top: 50px;">
+                    You no longer need an over-powered laptop to code, Gitpod works just as <br> smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes <br> all source code and never stores it on insecure machines and networks.
+                </p>
+
+                <div style="text-align: center; margin-top: 45px;">
+                    <img src="img/chrome-img.png" alt="">
+                    <img src="img/fire-fox.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="people-names">
+            <div class="people-text">
+                <h1 style="text-align: center; margin-top: 176px;">Used by 400,000+ developers.</h1>
+            </div>
+
+            <div class="cards-all" style="display: flex; justify-content: center; gap: 25px;">
+                <div class="people-cards1" style="padding: 20px; margin-top: 57px;">
+                    <p>GitPod is incredibly cool.</p>
+    
+                    <p>
+                        In my opinion, this is a big step in open source <br> software
+                         contribution. I'm excited to see <br> where we go from here.
+                    </p>
+    
+                    <div style="display: flex; align-items: center; gap: 20px;">
+                        <div>
+                            <img src="img/been-img.png" alt="">
+                        </div>
+    
+                        <p>Ben Halpern <br> Creator and Co-founder @forem and <br> @ThePracticalDev</p>
+                    </div>
+                </div>
+
+                <div class="people-cards2" style="padding: 20px; margin-top: 57px">
+                    <p>Let's say we were overwhelmed how smooth <br> @gitpod workspaces creation & own Docker <br> image for workspaces worked.</p>
+    
+                    <p>
+                        Plus, installing @code extensions from the <br> store and integrating @gitlab CI. That blew <br> my mind entirely, and that is hard ;
+                    </p>
+    
+                    <div style="display: flex; align-items: center; gap: 20px;">
+                        <div>
+                            <img src="img/michael.png" alt="">
+                        </div>
+    
+                        <p>Michael Friedrich <br> Developer Evangelist @GitLab</p>
+                    </div>
+                </div>
+
+                <div class="people-cards1" style="padding: 20px; margin-top: 57px">
+                    <p>Look at any PR (pull request) in a full coding <br> environment where you can edit, build, and <br> test the PR code, by just prepending <br> "gitpod.io#" to the PR URL. Super useful for <br> reviewing/testing stuff without having to <br> check it out locally!</p>
+    
+                    <div style="display: flex; align-items: center; gap: 20px;">
+                        <div>
+                            <img src="img/juilus.png" alt="">
+                        </div>
+    
+                        <p>Julius Volz <br> Creator  @PrometheusIO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="imgs">
+            <div style="display: flex; flex-direction: column;">
+                <div style="display: flex; justify-content: center; align-items: center; gap: 50px; margin-top: 125px;">
+                    <div>
+                        <img src="img/git-lab.png" alt="">
+                    </div>
+    
+                    <div>
+                        <img src="img/camp-img.png" alt="">
+                    </div>
+    
+                    <div>
+                        <img src="img/dwavw-img.png" alt="">
+                    </div>
+    
+                    <div>
+                        <img src="img/google-img.png" alt="">
+                    </div>
+    
+                    <div>
+                        <img src="img/amazon.png" alt="">
+                    </div>
+    
+                    <div>
+                        <img src="img/facebook-img.png" alt="">
+                    </div>
+    
+                    <div>
+                        <img src="img/uber-img.png" alt=""><br>
+                    </div>
+                </div>
+
+                <div style="display: flex; align-items: center; margin-left: 250px; margin-top: 50px; gap: 50px;">
+                    <div>
+                        <img src="img/open-ai.png" alt="">
+                    </div>
+    
+                    <div>
+                        <img src="img/intel-img.png" alt="">
+                    </div>
+    
+                    <div>
+                        <img src="img/theia-img.png" alt="">
+                    </div>
+    
+                    <div>
+                        <img src="img/code-img.png" alt="">
+                    </div>
+    
+                    <div>
+                        <img src="img/4g-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="connect">
+            <div class="connect-text" style="text-align: center; margin-top: 200px;">
+                <h1>Get started now</h1>
+            </div>
+
+            <div class="row" style="display: flex; justify-content: center; gap: 25px;">
+                <div class="col-6" id="ikkita-col" style="margin-top: 50px;">
+                    <h3>Connect Git repository</h3>
+
+                    <p style="text-align: center;">
+                        Select a Git provider to start with an existing <br> project from any Git context.
+                    </p><br><br>
+
+                    <button class="git-lab-bt"><img src="img/git-lab-img.png" alt=""> Continue with GitLab</button><br>
+                    <button class="cat-bt"><img src="img/cat-bt.png" alt=""> Continue with GitHub</button><br>
+                    <button class="kub-bt"><img src="img/kub-bt.png" alt=""> Continue with Bitbucket</button><br><br><br>
+
+                    <p style="text-align: center;">
+                        Or prefix any GitLab, GitHub or Bitbucket URL <br> with
+                    </p>
+                </div>
+
+                <div class="col-6" id="ikkita-col" style="margin-top: 50px; display: flex; gap: 12px;">
+                    <h3>Launch an example workspace</h3>
+                    <p>Dive into one of our example workspaces</p>
+
+                    <div class="bt-all" style="display: flex; justify-content: space-between;">
+                        <div class="bt-img" style="display: flex; gap: 10px; align-items: center; padding: 10px;">
+                            <div style="margin-top: -8px;">
+                                <img src="img/ts-img.png" alt="">
+                            </div>
+                            
+                            <p style="margin-top: 10px;">Node or TypeScript</p>
+                        </div>
+
+                        <div class="launch-bt">Launch workspace</div>
+                    </div>
+
+                    <div class="bt-all" style="display: flex; justify-content: space-between;">
+                        <div class="bt-img" style="display: flex; gap: 10px; align-items: center; padding: 10px;">
+                            <div style="margin-top: -8px;">
+                                <img src="img/python-img.png" alt="">
+                            </div>
+                            
+                            <p style="margin-top: 10px;">Python</p>
+                        </div>
+
+                        <div class="launch-bt">Launch workspace</div>
+                    </div>
+
+                    <div class="bt-all" style="display: flex; justify-content: space-between;">
+                        <div class="bt-img" style="display: flex; gap: 10px; align-items: center; padding: 10px;">
+                            <div style="margin-top: -8px;">
+                                <img src="img/goo-img.png" alt="">
+                            </div>
+                            
+                            <p style="margin-top: 10px;">Go</p>
+                        </div>
+
+                        <div class="launch-bt">Launch workspace</div>
+                    </div>
+
+                    <div class="bt-all" style="display: flex; justify-content: space-between;">
+                        <div class="bt-img" style="display: flex; gap: 10px; align-items: center; padding: 10px;">
+                            <div style="margin-top: -8px;">
+                                <img src="img/rust-img.png" alt="">
+                            </div>
+                            
+                            <p style="margin-top: 10px;">Rust</p>
+                        </div>
+
+                        <div class="launch-bt">Launch workspace</div>
+                    </div>
+
+                    <div class="bt-all" style="display: flex; justify-content: space-between;">
+                        <div class="bt-img" style="display: flex; gap: 10px; align-items: center; padding: 10px;">
+                            <div style="margin-top: -8px;">
+                                <img src="img/java-img.png" alt="">
+                            </div>
+                            
+                            <p style="margin-top: 10px;">Java</p>
+                        </div>
+
+                        <div class="launch-bt">Launch workspace</div>
+                    </div>
+
+                    <div class="bt-all" style="display: flex; justify-content: space-between;">
+                        <div class="bt-img" style="display: flex; gap: 10px; align-items: center; padding: 10px;">
+                            <div style="margin-top: -8px;">
+                                <img src="img/svelte-img.png" alt="">
+                            </div>
+                            
+                            <p style="margin-top: 10px;">Svelte</p>
+                        </div>
+
+                        <div class="launch-bt">Launch workspace</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="footer">
+            <div class="footer-all" style="display: flex; justify-content: center; gap: 170px; margin-top: 205px;">
+                <div class="foot-text1">
+                    <h5>Gitpod</h5>
+
+                    <p>Home</p>
+                    <p>Features</p>
+                    <p>Pricing</p>
+                    <p>Changelog</p>
+                    <p>Self-Hosted</p>
+                    <p>Gitpod vs GitHub</p>
+                    <p>Codespaces</p>
+                    <p>Status</p>
+                </div>
+
+                <div class="foot-text2">
+                    <h5>Developer</h5>
+
+                    <p>Getting started</p>
+                    <p>Screencasts</p>
+                    <p>Blog</p>
+                    <p>Documentation</p>
+                    <p>Report a bug</p>
+                    <p>Community</p>
+                </div>
+
+                <div class="foot-text3">
+                    <h5>Company</h5>
+
+                    <p>About</p>
+                    <p>Careers</p>
+                    <p>Contact</p>
+                    <p>Media Kit</p>
+                </div>
+
+                <div class="foot-text4">
+                    <h5>Legal</h5>
+
+                    <p>Imprint</p>
+                    <p>Terms of Service</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+
+            <div class="chiziq"></div>
+
+            <div class="footer-navbar" style="display: flex; justify-content: center; justify-content: space-between;  padding: 0px 180px; margin-top: 25px;">
+                <div style="display: flex;">
+                    <div>
+                        <img src="img/footer-img.png" alt="">
+                    </div>
+                    <p style="margin-top: 3px;">Copyright © 2021 Gitpod</p>
+                </div>
+
+                <div>
+                    <img src="img/footer-img2.png" alt="">
+                    <img src="img/footer-img3.png" alt="">
+                    <img src="img/footer-img4.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div style="display: flex; justify-content: center; justify-content: space-between; margin-top: 45px;">
+            <div>
+                This website uses cookies to enhance the user experience. Read our privacy policy for more info.
+            </div>
+
+            <div>
+                <button style="width: 163px; height: 32px; border-radius: 8px; background: #F9F9F9; border: none;">Accept Cookies</button>
+            </div>
+        </div>
+    </div><br>
+
+
+
+</body>
+<script src="bootstrap.bundle.min.js"></script>
+<script src="app.js"></script>
+</html>
